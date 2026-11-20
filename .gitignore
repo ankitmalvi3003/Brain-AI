@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*token*.json
+.venv/
+__pycache__/
+*.pyc
+*.mp4
+*.wav
+*.xlsx
+*.npy
+*.npz
+.cache/
