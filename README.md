@@ -1,10 +1,12 @@
-# Brain AI — Multimodal Creative Analysis
+# Brain AI — Exploring Creative Testing Before Launch
 
-An applied ML portfolio project exploring video-and-audio analysis with TRIBE v2, reproducible feature extraction, temporal visualization, and evaluation against external outcomes.
+**Can we use model-predicted response to help prioritize video creatives before launch?**
+
+Brain AI explores TRIBE v2 as an early creative-testing signal. In a retrospective pilot, selected model-derived response features showed directional alignment with observed view-through rates (VTR). This motivates evaluating whether the workflow can help teams shortlist creatives before committing campaign budget.
 
 ## Project question
 
-Can model-predicted cortical-response features provide useful hypotheses for comparing video creatives and language variants?
+Can model-predicted cortical-response features help teams compare edits and language variants before launch, then be evaluated against campaign outcomes after launch?
 
 The project brings together multimodal inference, data validation, statistical analysis, and communication of uncertainty.
 
@@ -30,6 +32,16 @@ flowchart TD
     N --> O
     O --> P[Independent validation on new creatives]
 ```
+
+## Intended use: creative testing before launch
+
+1. Analyze candidate video and audio assets with TRIBE v2 before launch.
+2. Compare response profiles, language variants, and temporal patterns.
+3. Use the analysis to propose a shortlist and specific edits for controlled testing.
+4. Collect VTR and delivery context after launch.
+5. Evaluate whether the predefined response features align with outcomes on new creatives.
+
+The workflow is designed to generate signals before campaign delivery. The evidence presented here comes from a retrospective comparison with available VTR data. It does not establish that the pilot predicted outcomes before launch or that using its shortlist would improve VTR.
 
 ## Analytical approach
 
@@ -70,7 +82,7 @@ The pattern was mixed across features. Spending more time above an attention or 
 
 ### What this result establishes
 
-The pilot found directional alignment between selected TRIBE-derived features and observed VTR. It provides a hypothesis for further validation, rather than a validated engagement predictor.
+The pilot found directional alignment between selected TRIBE-derived features and observed VTR, supporting further investigation of creative testing before launch. The intended value is earlier comparison and prioritization of creative options. A prospective study must establish whether these signals generalize to unseen creatives and improve selection decisions.
 
 This observational analysis does not estimate incremental lift or a percentage increase in VTR. A correlation coefficient is not a growth percentage, and neither correlation nor rank agreement demonstrates that changing a model feature would improve VTR.
 
